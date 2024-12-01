@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <title>Ping Pong</title>
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Additional CSS Files -->
+      <link rel="stylesheet" href="css/home_page.css">
+      <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="css/games_mode.css">
+      <link rel="stylesheet" href="css/sub-menu.css">
+   </head>
+   <body>
+      <!-- ***** Preloader Start ***** -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <div id="js-preloader" class="js-preloader">
+         <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+      </div>
+      <!-- ***** Preloader End ***** -->
+      <!-- ***** Header Area Start ***** -->
+      <header class="header-area header-sticky">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <nav class="main-nav">
+                     <!-- ***** Logo Start ***** -->
+                     <a href="index.html" class="logo">
+                     <img src="images/TR-logo.png" alt="">
+                     </a>
+                     <!-- ***** Logo End ***** -->
+                     <!-- ***** Search End ***** -->
+                     <div class="search-input">
+                        <form id="search" action="#">
+                           <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                           <!-- <i class="fa fa-search"></i> -->
+                        </form>
+                     </div>
+                     <!-- ***** Search End ***** -->
+                     <!-- ***** Menu Start ***** -->
+                     <ul class="nav">
+                        <li><a href="index.html" class="active">Home <img src="images/home.png" alt=""></a></li>
+                        <li><a href="Message.html">Messages <img src="images/message.png" alt=""></a></li>
+                        <li><a href="Message.html">Settings <img src="images/settings.png" alt=""></a></li>
+                        <li><a href="Message.html">Log out <img src="images/logout.png" alt=""></a></li>
+                        <li><a href="profile.html">Profile <img src="images/profile-header.jpg" alt=""></a></li>
+                     </ul>
+                     <a class='menu-trigger'>
+                     <span>Menu</span>
+                     </a>
+                     <!-- ***** Menu End ***** -->
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- ***** Header Area End ***** -->
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="page-content">
+                  <!-- ***** Banner Start ***** -->
+                  <div class="main-banner">
+                     <div class="row">
+                        <div class="col-lg-7">
+                           <div class="header-text">
+                              <h6>Welcome To Ping Pong</h6>
+                              <h4><em>Ready</em> For A Gaming Surprise? Click 'Play'</h4>
+                              <div class="main-button">
+                                 <a href="browse.html">Play</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- ***** Banner End ***** -->
+                  <!-- ***** Games mode Start ***** -->
+                  <div class="most-popular">
+                     <div class="row">
+                        <div class="col-lg-12">
+                           <div class="heading-section">
+                              <h4><em>Games</em> Mode</h4>
+                           </div>
+                           <div class="container">
+                              <div class="swiper">
+                                 <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                       <img
+                                          src="images/pingpong.png" />
+                                       <p>CLASSIC</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img
+                                          src="images/robot.png" />
+                                       <p>AI MODE</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img
+                                          src="images/friends.png" />
+                                       <p>FREINDS MODE</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img
+                                          src="images/tictactoe.png" />
+                                       <p>TIC TAC TOE</p>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- ***** Games Mode End ***** -->
+                  <!-- ***** Best Player List Start ***** -->
+                  <div class="gaming-library">
+                     <div class="col-lg-12">
+                        <div class="heading-section">
+                           <h4><em>Best Players</em> List</h4>
+                        </div>
+                        <div class="item">
+                           <ul>
+                              <li><img src="images/game-01.jpg" alt="" class="templatemo-item"></li>
+                              <li>
+                                 <h4>Don-frex</h4>
+                                 <span>adnane saber</span>
+                              </li>
+                              <li>
+                                 <h4>Played Games</h4>
+                                 <span>37</span>
+                              </li>
+                              <li>
+                                 <h4>Games Winned</h4>
+                                 <span>30</span>
+                              </li>
+                              <li>
+                                 <h4>Rate</h4>
+                                 <span>80%</span>
+                              </li>
+                              <li>
+                                 <div class="main-border-button"><a href="#">Message</a></div>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="item">
+                           <ul>
+                              <li><img src="images/game-02.jpg" alt="" class="templatemo-item"></li>
+                              <li>
+                                 <h4>Don-frex</h4>
+                                 <span>adnane saber</span>
+                              </li>
+                              <li>
+                                 <h4>Played Games</h4>
+                                 <span>37</span>
+                              </li>
+                              <li>
+                                 <h4>Games Winned</h4>
+                                 <span>30</span>
+                              </li>
+                              <li>
+                                 <h4>Rate</h4>
+                                 <span>80%</span>
+                              </li>
+                              <li>
+                                 <div class="main-border-button"><a href="#">Message</a></div>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="item last-item">
+                           <ul>
+                              <li><img src="images/game-03.jpg" alt="" class="templatemo-item"></li>
+                              <li>
+                                 <h4>Don-frex</h4>
+                                 <span>adnane saber</span>
+                              </li>
+                              <li>
+                                 <h4>Played Games</h4>
+                                 <span>37</span>
+                              </li>
+                              <li>
+                                 <h4>Games Winned</h4>
+                                 <span>30</span>
+                              </li>
+                              <li>
+                                 <h4>Rate</h4>
+                                 <span>80%</span>
+                              </li>
+                              <li>
+                                 <div class="main-border-button"><a href="#">Message</a></div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <div class="main-button">
+                           <a href="profile.html">View Full List</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- ***** Best Player List Start End ***** -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <p>Copyright © 2048 <a href="#">42Transcendence </a> 
+                     <span>DON-FREX</></span>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Scripts -->
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/team.js"></script>
+      <script src="js/sub-menu.js"></script>
+   </body>
+</html>
